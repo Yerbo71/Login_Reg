@@ -16,22 +16,25 @@ Make sure you have Node.js and npm installed on your machine.
 
    ```bash
    cd log-app
-Install dependencies:
+2. Install dependencies:
+   ```bash
+   npm install
 
-bash
-Copy code
-npm install
-Development
+3. Development:
 Run the following command to start the development server:
+   ```bash
+   npm run dev
+This will launch the application in development mode, and you can access it at http://localhost:5173.
 
-bash
-Copy code
-npm run dev
-This will launch the application in development mode, and you can access it at http://localhost:3000.
+## Technologies Used
 
-Technologies Used
-React
-Formik
-Yup
-Vite
-Chakra UI
+- **React (v17.0.2):** A JavaScript library for building user interfaces. It allows for the creation of reusable UI components.
+
+- **Formik (v2.2.9):** A form management library for React applications. Formik simplifies form handling, validation, and submission.
+
+- **Yup (v0.32.9):** A JavaScript schema validation library. Yup is commonly used with Formik to define and enforce data validation rules.
+
+- **Vite (v2.7.0):** A fast and efficient frontend build tool for modern web development. Vite supports React and provides quick development server startup.
+
+- **Chakra UI (v1.6.5):** A component library for React applications that provides a set of accessible and customizable UI components. Chakra UI simplifies styling with utility-first principles.
+
